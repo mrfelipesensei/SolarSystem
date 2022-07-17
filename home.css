@@ -12,12 +12,28 @@ ol{
     text-align: left; 
 }
 
+body{
+    background-color: black;
+}
+
 .lista{
+    display: block;
     text-align: center;
-    font-size: larger;
+    font-size: 1.5rem;
+    font-family: 'Finlandica', Arial, sans-serif;
+    color:whitesmoke;
 }
 
 .terra{
+    width: 20%; 
+    color: whitesmoke;
+    transition: 1s all;
+    cursor: pointer; 
+    display: block;
+    margin-top: 3px;
+}
+
+.terra:hover{
+    transform: scale(1.3);
     color: green;
-    font-weight: bolder;
 }
